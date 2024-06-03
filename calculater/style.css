@@ -1,0 +1,84 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'poppins', sans-serif;
+     /* border: 1px solid red; */
+}
+body{
+     width: 100%;
+     height: 100vh;
+     background-color: rgb(12, 12, 15);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.calculator{
+     border: 3px solid black;
+     border-radius: 10px;
+     padding: 5px;
+     box-shadow: 0 0 20px rgb(76, 75, 75);
+     background-color: rgb(23, 15, 15);
+}
+input{
+     width: 278px;
+     height: 55px;
+     text-align: right;
+     font-size: 40px;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+     background-color: rgb(22, 29, 44);
+     padding: 10px;
+     color: whitesmoke;
+     font-weight: bold;
+     
+}
+input::placeholder{
+     color: whitesmoke;
+     font-weight: bold;
+}
+.btn-container{
+     border-radius: 5px;
+     background-color: rgb(32, 41, 59);
+     margin-top: 10px;
+     background-color: black;
+}
+.btn{
+     margin: 8px;
+     height: 28px;
+     width: 50px;
+     font-weight: bold;
+     font-size: 20px;
+     border-radius: 7px;
+     border: none;
+     cursor: pointer;
+}
+.dlt-btn{
+     background-color: rgb(100, 114, 144);
+     font-size: 15px;
+}
+.reset-btn,.equal-btn{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    height: 28px;
+    width: 121px;
+    cursor: pointer;
+}
+.equal-btn{
+     background-color: rgba(232, 110, 10, 0.809);
+     color: white;
+     width: 50px;
+}
+.reset-btn{
+     background-color: rgb(100, 114, 144);
+     font-size: 15px;
+}
+.operator{
+     color: orangered;
+}
