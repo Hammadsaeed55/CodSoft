@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>My Personal Portfolio</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="https://kit.fontawesome.com/fb39706c88.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+     <nav class="navbar">
+          <a href="#header"><img src="images/logo.png" class="logo" alt=""></a>
+          <!-- <h1>Hammad</h1> -->
+
+          <ul id="sidemenu">
+               <li><a href="#header">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#skills">Skills</a></li>
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="#resume">Resume</a></li>
+               <li><a href="#contact">Contact</a></li>
+               <i class="fa-regular fa-circle-xmark fas" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+     </nav>
+
+     <div id="header">
+          <div class="container">
+
+               <div class="header-text">
+                    <p>Hello !</p>
+                    <h1>I'am <span>Hammad<br>saeed</span></h1>
+                    <p>I <span class="header-domain"></span></p>
+                    <h3 class="header-domain">Web Developer</h3>
+                    <button class="header-btn">
+                         <a href="https://www.linkedin.com/in/hammad-saeed-666252244">LINKEDIN</a>
+                    </button>
+                    <button class="header-btn">
+                         <a href="https://github.com/Hammadsaeed55">GITHUB</a>
+                    </button>
+
+               </div>
+               <div class="header-pic"></div>
+          </div>
+     </div>
+     
+     <!-- About -->
+     <div id="about">
+          <div class="container">
+               <div class="row">
+                    <div class="about-col-1">
+                         <img src="images/image2.png">
+                    </div>
+                    <div class="about-col-2">
+                         <h1 class="sub-title">About Me</h1>
+                         <br>
+                         <p class="header-summary">Hi, I'm Hammad saeed, a passionate web developer with expertise in
+                              creating dynamic and responsive websites.
+                              Frontend web developer skilled in HTML,
+                              CSS, and JavaScript, passionate about
+                              creating engaging user experiences.
+                              Experienced in responsive design and
+                              proficient in popular frameworks like
+                              ReactJS . Constantly learning and adapting
+                              to new technologies to deliver visually
+                              appealing and functional websites..</p>
+                         <div class="tab-titles">
+                              <p class="tab-links active-link" onclick="opentab('address')">Contact & Address</p>
+                              <p class="tab-links " onclick="opentab('certifications')">Certifications</p>
+                              <p class="tab-links" onclick="opentab('education')">Educations</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="address">
+                              <ul>
+                                   <li><span class="program">Mobile No:</span><br>(+91)-8126551926</li>
+                                   <li><span class="program">Email:</span><br>hammadsaeed6702@gmail.com</li>
+                                   <li><span class="program">Instagram:</span><br><a id="insta-link"
+                                             href="https://www.instagram.com/hammad_5522?igsh=MWhrNTM2N3FmNmVvcQ==">hammad_5522</a>
+                                   </li>
+                                   <li><span class="program">Address:</span><br>Shahabad-(Rampur)-UP-244922</li>
+                              </ul>
+                         </div>
+                         <div class="tab-contents" id="certifications">
+                              <ul>
+                                   <li><span class="program">Python Training Certificate</span><br>For successfully
+                                        completed 40 days python Training.</li>
+                                   <li><span class="program">Brain Manthan Certificate</span><br>For participating in
+                                        1st round of "Brain Manthon" compition held on 25 Oct 2021.</li>
+                                   <li><span class="program">English Paper Writing Certificate</span><br>For two days
+                                        national conference on "ENGLISH LANGUAGE TEACHING" held on 22nd october.</li>
+                              </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                              <ul>
+                                   <li><span class="program">M.C.A</span><span>-2025</span><br>Teerthanker Mahaveer
+                                        University</li>
+                                   <li><span class="program">M.C.A</span><span>-2025</span><br>Teerthanker Mahaveer
+                                        University</li>
+                                   <li><span class="program">Intermediate</span><span>-2020</span><br>S.B.S Inter
+                                        College</li>
+                                   <li><span class="program">High School</span><span>-2018</span><br>S.B.S Inter College
+                                   </li>
+                              </ul>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="line"></div>
+     </div>
+
+     <!-- skills -->
+     <div id="skills">
+          <div class="container">
+               <h1 class="sub-title">My Skills</h1>
+               <p class="skills-summary">Proficient in front-end development using HTML, CSS, and JavaScript, with
+                    expertise in React.js and Bootstrap for responsive design, complemented by backend skills in PHP and
+                    MySQL, and adept with jQuery for dynamic web applications.</p>
+               <div class="skills-list">
+                    <div class="skills-item-container">
+                         <div class="skills-item" id="html"></div>
+                         <span class="skills-item-name">HTML</span>
+                    </div>
+                    <div class="skills-item-container">
+                         <div class="skills-item" id="css"></div>
+                         <span class="skills-item-name">CSS</span>
+                    </div>
+                    <div class="skills-item-container">
+                         <div class="skills-item" id="js"></div>
+                         <span class="skills-item-name">Javascript</span>
+                    </div>
+                    <div class="skills-item-container">
+                         <div class="skills-item" id="react"></div>
+                         <span class="skills-item-name">React</span>
+                    </div>
+                    <div class="skills-item-container">
+                         <div class="skills-item" id="jquery"></div>
+                         <span class="skills-item-name">JQuery</span>
+                    </div>
+                    <div class="skills-item-container">
+                         <div class="skills-item" id="bootstrap"></div>
+                         <span class="skills-item-name" style="position: relative;
+                    top: 17px; left: 22px;">Bootstrap</span>
+                    </div>
+                    <div class="skills-item-container">
+                         <div class="skills-item" id="php"></div>
+                         <span class="skills-item-name" style="position: relative;
+                    top: 17px;left: 35px;">PHP</span>
+                    </div>
+                    <div class="skills-item-container">
+                         <div class="skills-item" id="mysql"></div>
+                         <span class="skills-item-name" style="position: relative;
+                    top: 17px;left: 32  px;">MySql</span>
+                    </div>
+               </div>
+          </div>
+          <div class="line"></div>
+     </div>
+
+     <!-- projects-->
+     <div id="projects">
+          <div class="container">
+               <h1 class="sub-title" id="project-title">My Projects</h1>
+               <p class="skills-summary" id="project-summary">During my learning time, I completed various projects
+                    using HTML, CSS, JavaScript, and other web technologies to enhance my skills and understanding in
+                    web development.Each project contributed to my hands-on experience and deepened my knowledge of web
+                    development principles.each project has been an opportunity to apply and refine my skills in coding
+                    and design.As I continue to learn, I eagerly seek out new challenges and opportunities to expand my
+                    knowledge and expertise in the field.</p>
+               <div class="project-list">`
+
+
+                    <div class="project-item">
+                         <div class="project-img p1-img"></div>
+                         <a href="https://github.com/Hammadsaeed55/Spotify-clone">
+                              <h4 class="project-name">Spotify Clone</h4>
+                         </a>
+                         <p class="project-description">This is a website for listening to songs in which we have
+                              created some different playlists. And have added some songs to that playlist.</p>
+                    </div>
+                    <div class="project-item">
+                         <div class="project-img p2-img"></div>
+                         <a href="https://weatherwiseforecast.netlify.app/">
+                              <h4 class="project-name">Weather App</h4>
+                         </a>
+                         <p class="project-description">Developed a dynamic weather application utilizing HTML, CSS,
+                              JavaScript, and API integration, providing real-time weather updates for users with
+                              intuitive interface</p>
+                    </div>
+                    <div class="project-item">
+                         <div class="project-img p-img p3-img"></div>
+                         <a href="https://onlinecalculate.netlify.app/">
+                              <h4 class="project-name">Calculator</h4>
+                         </a>
+                         <p class="project-description">I developed a fully functional calculator using HTML, CSS, and
+                              JavaScript. This project involved creating a user-friendly interface with HTML</p>
+                    </div>
+               </div>
+          </div>
+          <div class="line"></div>
+     </div>
+
+     <!-- resume -->
+     <div id="resume">
+          <div class="container">
+               <h1 class="sub-title resume-title">My Resume</h1>
+               <iframe src="Hammadsaeed-resume.pdf" class="resume" frameborder="0"></iframe>
+          </div>
+          </div>
+          <div class="line"></div>
+
+          <!-- contact -->
+          <div id="contact">
+               <div class="container">
+                    <div class="row">
+                         <div class="contact-left">
+                              <h1 class="sub-title contact">Contact Me</h1>
+                              <p><i class="fa-solid fa-paper-plane"></i>hammadsaeed6702@gmail.com</p>
+                              <p><i class="fa-solid fa-square-phone"></i>(+91)8126551926</p>
+                              <div class="social-icons">
+                                   <a href="https://www.instagram.com/hammad_5522?igsh=MWhrNTM2N3FmNmVvcQ=="><i
+                                             class="fa-brands fa-instagram"></i></a>
+                                   <a href="https://www.linkedin.com/in/hammad-saeed-666252244"><i
+                                             class="fa-brands fa-linkedin-in"></i></a>
+                                   <a href="https://github.com/Hammadsaeed55"><i class="fa-brands fa-github"></i></a>
+                                   <a href=""><i class="fa-brands fa-facebook"></i></a>
+                              </div>
+                              <a href="Hammadsaeed-resume.pdf" class="btn btn2" download>Download CV</a>
+                         </div>
+                         <div class="contact-right">
+                              <form>
+                                   <input type="text" name="Name" placeholder="Your Name" required>
+                                   <input type="email" name="email" placeholder="Your Email" required>
+                                   <textarea name="Message" id="" cols="" rows="6"
+                                        placeholder="Your Message"></textarea>
+                                   <button type="submit" class="btn btn2">Submit</button>
+                              </form>
+                         </div>
+                    </div>
+               </div>
+               <div class="line"></div>
+
+               <!-- copyright -->
+               <div>
+                    <div class="copyright">
+                         <p>Copyright &#169;.Made with <i class="fa-solid fa-heart"></i> Hammad</p>
+                    </div>
+               </div>
+               <script src="script.js"></script>
+
+               <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+               <script>
+                    var typed = new Typed(".header-domain", {
+                         strings: ["built thing for web.."],
+                         typeSpeed: 120,
+                         backSpeed: 100,
+                         loop: true
+                    });
+               </script>
+
+</body>
+
+</html>
